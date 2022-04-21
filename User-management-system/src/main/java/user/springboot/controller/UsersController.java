@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import user.springboot.model.Users;
 import user.springboot.service.UsersService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://users-management-system-app.herokuapp.com")
 @RestController
 public class UsersController  {
 	
